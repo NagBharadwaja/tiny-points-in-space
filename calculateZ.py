@@ -1,6 +1,6 @@
 from sys import argv
 from array import array
-from sympy import *
+from sympy import *;
 #---------------------COMMAND LINE ARGUMENT LIST-------------------------------
 #argv(1) = from x
 #argv(2) = to x
