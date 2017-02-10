@@ -1,6 +1,6 @@
 from sys import argv
 from array import array
-from sympy import *;
+from sympy import *
 #---------------------COMMAND LINE ARGUMENT LIST-------------------------------
 #argv(1) = from x
 #argv(2) = to x
@@ -29,7 +29,7 @@ rangeY = highRangeY - lowRangeY
 
 #find the increments of the x and y axes
 incrementX = rangeX / (resolution - 1)  # (-1) because you're splitting the distance to 1 less
-incrementY = rangeY / (resolution - 1)  # parts than the resolution (EX. 4 sections between 5 points)
+incrementY = rangeY / (resolution - 2)  # parts than the resolution (EX. 4 sections between 5 points)
 
 #initialize array of X values
 arrayX = array('d',[0] * resolution)      #empty array of size (resolution)
